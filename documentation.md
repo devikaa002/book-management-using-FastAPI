@@ -1,9 +1,10 @@
 ## Add Book
-Input: book name, author, genre, publisher, and price
-Output: list of added books with all the entered details
-URL: /book
-Method: POST
-Request Body:
+**Input**: book name, author, genre, publisher, and price  
+**Output**: list of added books with all the entered details  
+**URL**: /book  
+**Method**: POST  
+
+**Request Body**:
 ```json
 {
   "book_id": 2,
@@ -41,11 +42,11 @@ Response:
 
 
 ## Fetch book details
-Input: genre
-Output: a list of all the books that belong to the genre provided in the input
-URL: /book/{genre}
-Method: GET
-Response:
+**Input**: genre
+**Output**: a list of all the books that belong to the genre provided in the input
+**URL**: /book/{genre}
+**Method**: GET
+**Response**:
 ```json
 [
   [
@@ -68,11 +69,11 @@ Response:
 ```
 
 ## Update book details
-Input: book_id, book name, author, genre, publisher, price
-Output: display all the updated information for the given book
-URL: /book/{book_id}
-Method: PUT
-Response:
+**Input**: book_id, book name, author, genre, publisher, price
+**Output**: display all the updated information for the given book
+**URL**: /book/{book_id}
+**Method**: PUT
+**Response**:
 ```json
 {
   "book": [
@@ -87,11 +88,11 @@ Response:
 ```
 
 ## Delete a Book
-Input: book_id
-Output: a success message indicating that the book has been deleted
-URL: /book/{book_id}
-Method: DELETE
-Response:
+**Input**: book_id
+**Output**: a success message indicating that the book has been deleted
+**URL**: /book/{book_id}
+**Method**: DELETE
+**Response**:
 ```json
 {
   "message": "Record deleted successfully."
