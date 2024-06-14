@@ -17,3 +17,8 @@ A FastAPI application for managing a collection of books using PostgreSQL.
    ```bash
    git clone https://github.com/yourusername/book-management-system.git
    cd book-management-system
+
+2. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+
